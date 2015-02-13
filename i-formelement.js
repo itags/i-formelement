@@ -1,7 +1,6 @@
 module.exports = function (window) {
     "use strict";
 
-    require('polyfill/polyfill-base.js');
     require('itags.core')(window);
 
     var itagName = 'i-formelement', // <-- define your own itag-name here
